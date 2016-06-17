@@ -18,9 +18,12 @@
     border-radius: 4px;
   }
   .navbar-brand {
-    color:rgb(51, 89, 223) !important;
+    color:rgb(255, 255, 255) !important;
     font-weight: bolder;
     word-spacing: 0.3em;
+  }
+  .min .navbar-brand{
+    color: rgb(51, 89, 223) !important;
   }
 
 .container-narrow > hr {
@@ -297,7 +300,7 @@
     color:rgb(51, 89, 223);
   }
   .navbar-inverse .navbar-nav > li > a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: bolder !important;
   }
   .min .navbar-inverse .navbar-nav > li > a{
@@ -335,7 +338,7 @@
     border: 1px solid rgb(51, 89, 223);
   }
   .morphed-btn{
-    color: rgb(51, 89, 223) !important;
+    color: rgb(255, 255, 255) !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     margin-top: 4px;
@@ -405,9 +408,6 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.11) !important;
     }
   }
-
-
-
 .toggle-settings {
   width: 25px;
   height: 20px;

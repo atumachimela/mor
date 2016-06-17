@@ -18,5 +18,5 @@ angular.module('morphesApp')
     $scope.toggleSettings = function(){
         $scope.showSettings = !$scope.showSettings;
     };
- 
+   
   }]);
