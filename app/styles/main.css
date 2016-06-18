@@ -130,8 +130,9 @@ padding: 10px;
     font-family:'Oswald';
     font-weight: lighter;
     letter-spacing: 0.4px;
+    margin-left: 20px;
 }
-.how-btn{
+.what-btn{
     line-height: 40px; 
     font-family: 'Oswald';
     width: 50%;
@@ -140,20 +141,20 @@ padding: 10px;
     color: #fff; 
     text-align: center;
     margin: 0 auto; 
-    float: left;
+    margin-left: 48px;
 }
 #what-we-do, #how-we-do{
     margin-top: 70px; 
 }
-#how-we-do, #what-we-do{
-    min-height: 100%;
+#how-we-do{
+    min-height: 75%;
 }
 #what-we-do{
-    margin-bottom: 30px;
+    /*margin-bottom: 20px;*/
 }
 .title-bordered {
     text-align: center;
-    margin-bottom: 35px;
+    /*margin-bottom: 25px;*/
 }
 .title-bordered h2 {
     font-family: Lato;
@@ -211,14 +212,6 @@ padding: 10px;
     margin-top: -5px;
 }
 
-.time-table-title{
-    color: #202021;
-    font-weight: bolder;
-    text-transform: uppercase;
-    position: relative;
-  font-size: 3.8em !important;
-
-}
 a {
     outline: 0;
     color: #428bca;
@@ -226,14 +219,8 @@ a {
     list-style: none;
 }
 .title-bordered{
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
-
-.text-container{
-    margin:40px;    
-}
-
-
 #quote-carousel {
     padding: 0 10px 30px 10px;
     margin-top: 60px;
@@ -250,7 +237,7 @@ a {
     right: 50%;
     top: auto;
     bottom: 0px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: -19px;
 }
 #quote-carousel .carousel-indicators li {
@@ -301,7 +288,7 @@ a {
     font-weight: 800; 
     color: rgb(255, 255, 255); 
     text-decoration: none; 
-    letter-spacing: 0px; 
+    word-spacing: 22px; 
     text-transform: capitalize; 
     text-align: center;
     margin-top: 90px;
@@ -350,6 +337,45 @@ a {
 .future-bg{
   min-height: 60%;
   min-width: 100%;  
+}
+
+.fa {
+    color: rgb(255, 255, 255);
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    border-color: rgb(51, 89, 223);
+    border-width: 0px;
+    background-color: rgb(51, 89, 223);
+    font-size: 15px;
+    border-radius: 50%;
+    padding-top: 10px;
+    text-align: center;
+    margin-right:10px;
+}
+.text-container{
+    margin-left:55px; 
+    margin-bottom: 20px;   
+}
+.how-sub-menu{
+    font-family: 'Montserrat';
+    font-size:1.2em;
+    word-spacing: 2px;
+    font-weight: 400px;
+}
+.text-container p{
+    margin-top: 15px;
+}
+.see-schedule{
+    line-height: 47px;
+    border: 1px solid rgb(51, 89 ,223);
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 55px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(51, 89, 223);
+    width: 30%;
 }
 #footer {
     padding-bottom:10px;
